@@ -1,13 +1,10 @@
 package br.com.aula.exercicio2;
 
 import br.com.aula.Util;
-import br.com.aula.exercicio1.LogFactory;
-import br.com.aula.exercicio1.interfaces.Log;
 import br.com.aula.exercicio2.enums.Calzone;
-import br.com.aula.exercicio2.factory.PedidoFactory;
+import br.com.aula.exercicio2.factory.OrderFactory;
 import br.com.aula.exercicio2.interfaces.Massa;
 import br.com.aula.exercicio2.model.Order;
-import jdk.swing.interop.SwingInterOpUtils;
 
 import java.io.IOException;
 import java.time.LocalDate;
@@ -19,7 +16,7 @@ public class Main2 {
     public static void main(String[] args) throws IOException {
         for (int i = 0; i < 10; i++) {
             LocalDate currentDate = Util.localDateBetween(2019, 2019);
-            Optional<Order> pedidoOptional = PedidoFactory.create(currentDate);
+            Optional<Order> pedidoOptional = OrderFactory.create(currentDate);
             if (pedidoOptional.isPresent()){
                 System.out.println("======== PEDIDO ========");
                 Order pedido = pedidoOptional.get();

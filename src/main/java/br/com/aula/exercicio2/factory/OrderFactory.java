@@ -10,7 +10,7 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Optional;
 
-public class PedidoFactory {
+public class OrderFactory {
 
     public static Optional<Order> create(LocalDate date){
         Pizzaria pizzaria = PizzariaFactory.create("CRISTIANOS'S HAT");
