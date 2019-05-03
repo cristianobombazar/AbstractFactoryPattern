@@ -1,6 +1,6 @@
-package br.com.aula.exercicio2.model;
+package br.com.aula.abstractFactory.exercicio2.model;
 
-import br.com.aula.exercicio2.interfaces.Massa;
+import br.com.aula.abstractFactory.exercicio2.interfaces.Massa;
 
 import java.time.LocalDate;
 import java.util.List;

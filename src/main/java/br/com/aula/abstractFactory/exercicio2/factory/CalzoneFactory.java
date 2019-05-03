@@ -1,6 +1,6 @@
-package br.com.aula.exercicio2.factory;
+package br.com.aula.abstractFactory.exercicio2.factory;
 
-import br.com.aula.exercicio2.enums.Calzone;
+import br.com.aula.abstractFactory.exercicio2.enums.Calzone;
 
 public class CalzoneFactory {
 

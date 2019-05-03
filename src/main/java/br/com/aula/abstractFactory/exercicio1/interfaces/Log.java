@@ -1,4 +1,4 @@
-package br.com.aula.exercicio1.interfaces;
+package br.com.aula.abstractFactory.exercicio1.interfaces;
 
 import java.io.IOException;
 

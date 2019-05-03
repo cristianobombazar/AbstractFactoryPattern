@@ -1,9 +1,9 @@
-package br.com.aula.exercicio2.factory;
+package br.com.aula.abstractFactory.exercicio2.factory;
 
 import br.com.aula.Util;
-import br.com.aula.exercicio2.interfaces.Massa;
-import br.com.aula.exercicio2.model.Order;
-import br.com.aula.exercicio2.model.Pizzaria;
+import br.com.aula.abstractFactory.exercicio2.interfaces.Massa;
+import br.com.aula.abstractFactory.exercicio2.model.Order;
+import br.com.aula.abstractFactory.exercicio2.model.Pizzaria;
 
 import java.time.LocalDate;
 import java.util.ArrayList;

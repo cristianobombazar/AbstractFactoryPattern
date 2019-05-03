@@ -1,12 +1,12 @@
-package br.com.aula.exercicio2.enums;
+package br.com.aula.abstractFactory.exercicio2.enums;
 
-import br.com.aula.exercicio2.interfaces.Massa;
+import br.com.aula.abstractFactory.exercicio2.interfaces.Massa;
 
 import java.util.Arrays;
 import java.util.List;
 import java.util.NoSuchElementException;
 
-public enum Calzone implements Massa {
+public enum Pizza implements Massa {
     CALABRESA{
         @Override
         public List<String> getIngredients() {
@@ -30,8 +30,7 @@ public enum Calzone implements Massa {
         }
     };
     public abstract List<String> getIngredients();
-
-    public static Calzone of(String flavor){
-        return Arrays.stream(values()).filter(calzone -> calzone.getFlavor().equals(flavor.toUpperCase())).findFirst().orElseThrow(NoSuchElementException::new);
+    public static Pizza of(String flavor){
+        return Arrays.stream(values()).filter(pizza -> pizza.getFlavor().equals(flavor.toUpperCase())).findFirst().orElseThrow(NoSuchElementException::new);
     }
 }

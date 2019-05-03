@@ -1,4 +1,4 @@
-package br.com.aula.exercicio2.interfaces;
+package br.com.aula.abstractFactory.exercicio2.interfaces;
 
 import java.util.List;
 
