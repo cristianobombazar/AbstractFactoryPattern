@@ -1,0 +1,8 @@
+/home/wesley/Development/Repositories/DesignPatternExamples/chain-responsability/src/main/java/net/unibave/designpattersnexample/chainofresponsability/Runner.java
+/home/wesley/Development/Repositories/DesignPatternExamples/chain-responsability/src/main/java/net/unibave/designpattersnexample/chainofresponsability/FirstFilter.java
+/home/wesley/Development/Repositories/DesignPatternExamples/chain-responsability/src/main/java/net/unibave/designpattersnexample/chainofresponsability/ThirdFilter.java
+/home/wesley/Development/Repositories/DesignPatternExamples/chain-responsability/src/main/java/net/unibave/designpattersnexample/chainofresponsability/Response.java
+/home/wesley/Development/Repositories/DesignPatternExamples/chain-responsability/src/main/java/net/unibave/designpattersnexample/chainofresponsability/FourthFilter.java
+/home/wesley/Development/Repositories/DesignPatternExamples/chain-responsability/src/main/java/net/unibave/designpattersnexample/chainofresponsability/AbstractFilter.java
+/home/wesley/Development/Repositories/DesignPatternExamples/chain-responsability/src/main/java/net/unibave/designpattersnexample/chainofresponsability/SecondFilter.java
+/home/wesley/Development/Repositories/DesignPatternExamples/chain-responsability/src/main/java/net/unibave/designpattersnexample/chainofresponsability/Request.java

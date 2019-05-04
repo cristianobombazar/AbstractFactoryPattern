@@ -1,0 +1,8 @@
+net/unibave/designpattersnexample/chainofresponsability/Runner.class
+net/unibave/designpattersnexample/chainofresponsability/FirstFilter.class
+net/unibave/designpattersnexample/chainofresponsability/Response.class
+net/unibave/designpattersnexample/chainofresponsability/FourthFilter.class
+net/unibave/designpattersnexample/chainofresponsability/SecondFilter.class
+net/unibave/designpattersnexample/chainofresponsability/Request.class
+net/unibave/designpattersnexample/chainofresponsability/AbstractFilter.class
+net/unibave/designpattersnexample/chainofresponsability/ThirdFilter.class

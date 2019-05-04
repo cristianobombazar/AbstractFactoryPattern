@@ -6,7 +6,7 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.UUID;
 
-class LogFile implements Log {
+public class LogFile implements Log {
 
     @Override
     public void print(String log) {
