@@ -1,4 +1,4 @@
-package net.unibave.designpattersnexample.chainofresponsability;
+package net.unibave.designpattersnexample.singleton;
 
 public class SingletonRunner {
 
